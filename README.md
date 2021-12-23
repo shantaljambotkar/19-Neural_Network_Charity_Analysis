@@ -23,31 +23,33 @@ Deliverable 2: Compile, Train, and Evaluate the Model
 Deliverable 3: Optimize the Model
 Deliverable 4: A Written Report on the Neural Network Model
 
-## Results: Using bulleted lists and images to support your answers, address the following questions.
+## Results
 
-## Data Preprocessing
+### Data Preprocessing
 
 ### Variable(s) that are considered the target(s) for the model
 
-The column IS_SUCCESSFUL contains binary data refering to weither or not the charity donation was used effectively. This variable is then considered as the target for our deep learning neural network
+The column IS_SUCCESSFUL is considered as the target for our deep learning neural network
 
 ### Variable(s) that are considered to be the features for the  model
 
-he following columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for our model.
+The following columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for our model.
 
 ### Variable(s) that are considered neither targets nor features, and should be removed from the input data
 
-The columns EIN and NAME are identification information and have been removed from the input data.
+The columns EIN and NAME are to be removed from the input data.
 
 ### Compiling, Training, and Evaluating the Model
 
 ### Number of neurons, layers, and activation functions that were selected for the neural network model, and why?
 
-This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively.
-The input data has 43 features.
-The output layer is made of a unique neuron as it is a binary classification.
-To speed up the training process, we are using the activation function ReLU for the hidden layers. As our output is a binary classification, Sigmoid is used on the output layer.
-For the compilation, the optimizer is adam and the loss function is binary_crossentropy with the metrics being accuracy
+The deep learning Neural Networks has:
+1. number_input_features = len(X_train_scaled[0]) - which is about 43 as our features are 43
+2. hidden_nodes_layer1 =  80
+3. hidden_nodes_layer2 = 30
+4. Activation function as ReLu
+5. Output binary classification as Sigmoid
+6. Compilation:  the optimizer is adam, loss function is binary_crossentropy with the metrics being accuracy
 
 ### Were you able to achieve the target model performance?
 
