@@ -74,7 +74,7 @@ Added extra hidden layer and changed the activation function
 
 ![Added extra hidden layer and changed the activation function]()
 
-3. Optimization 4: 
+4. Optimization 4: 
 Changed the activation function
 
 ![Changed the activation function]()
