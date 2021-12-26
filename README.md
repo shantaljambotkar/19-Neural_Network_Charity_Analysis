@@ -70,15 +70,16 @@ Added additional nodes for the layers
 ![Added additional nodes for the layers](images/Opt2.png)
 
 3. Optimization 3: 
-Added extra hidden layer and changed the activation function
+Added extra hidden layer 
 
-![Added extra hidden layer and changed the activation function]()
+![Added extra hidden layer](images/Opt3.png)
 
 4. Optimization 4: 
 Changed the activation function
 
-![Changed the activation function]()
+![Changed the activation function](images/Opt4.png)
 
 ## Summary
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+The deep learning neural network has not reached above 75% accuracy inspite of the optimization efforts.
+
